@@ -10,7 +10,7 @@
     "url": "sindresorhus.com"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=16"
   },
   "scripts": {
     "test": "grunt"
@@ -28,9 +28,6 @@
     "app",
     "apps"
   ],
-  "dependencies": {
-    "electron-packager": "^14.0.0"
-  },
   "devDependencies": {
     "grunt": "^1.6.1",
     "grunt-cli": "^1.4.3",
@@ -40,5 +37,8 @@
   },
   "peerDependencies": {
     "grunt": ">=1.0.0"
+  },
+  "dependencies": {
+    "@electron/packager": "^18.0.0"
   }
 }
