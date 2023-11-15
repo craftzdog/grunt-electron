@@ -1,5 +1,5 @@
 {
-  "name": "grunt-electron",
+  "name": "@craftzdog/grunt-electron",
   "version": "10.0.0",
   "description": "Package Electron apps",
   "license": "MIT",
